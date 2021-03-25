@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgb(30, 30, 40);
+            color: rgb(235, 235, 235);
+            text-align: center;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+
+        }
+        .container {
+            background-color: rgb(30, 30, 40);
+            width: 50%;
+            padding: 2%;
+            margin: 2% auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+        .container h2 {
+            font-size: 16pt;
+            letter-spacing: 1px;
+        }
+        .container h3 {
+            background-color: rgb(235, 235, 235);
+            border-radius: 10px;
+            width: 70%;
+            padding: 1%;
+            margin: 1% auto;
+            color: rgb(30, 30, 40);
+            font-size: 16pt;
+        }
+    </style>
+    <title>Git Commands</title>
+</head>
+<body>
+    <h2>Git Commands</h2>
+    <div class="container">
+        <h2>Inilize a git repository</h2>
+        <h3>git init</h3>
+    </div>
+    <div class="container">
+        <h2>Download GitHub repository locally</h2>
+        <h3>git clone &lt;URL&gt;</h3>
+    </div>
+    <div class="container">
+        <h2>Add new files to the repository</h2>
+        <h3>git add &lt;file name&gt;</h3>
+    </div>
+    <div class="container">
+        <h2>Save new changes</h2>
+        <h3>git commit -m "message"</h3>
+    </div>
+    <div class="container">
+        <h2>Check status of the repository</h2>
+        <h3>git status</h3>
+    </div>
+    <div class="container">
+        <h2>Add new files and commit at the same time</h2>
+        <h3>git commit -am "message"</h3>
+    </div>
+    <div class="container">
+        <h2>Upload changes to GitHub</h2>
+        <h3>git push</h3>
+    </div>
+    <div class="container">
+        <h2>Download latest version from GitHub</h2>
+        <h3>git pull</h3>
+    </div>
+    <div class="container">
+        <h2>Tracl all commits</h2>
+        <h3>git log</h3>
+    </div>
+    <div class="container">
+        <h2>Retrieve to a previous version</h2>
+        <h3>git --hard &lt;commit hash&gt;</h3>
+        <h3>git --hard origin/master</h3>
+    </div>
+    <div class="container">
+        <h2>Check currnt branch</h2>
+        <h3>git branch</h3>
+    </div>
+    <div class="container">
+        <h2>Create new branch</h2>
+        <h3>git checkout -b &lt;branch name&gt;</h3>
+    </div>
+    <div class="container">
+        <h2>Switch to other branch</h2>
+        <h3>git checkout &lt;branch name&gt;</h3>
+    </div>
+    <div class="container">
+        <h2>Merge branches</h2>
+        <h3>git merge &lt;branch name&gt;</h3>
+    </div>
+</body>
+</html>
